@@ -40,3 +40,29 @@
     word-wrap: none;
     white-space: nowrap;
 }
+
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+    opacity: 0.7;
+}
+
+.skeleton-text {
+    height: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    border-radius: 0.125rem;
+}
+
+.skeleton-text:last-child {
+    margin-bottom: 0rem;
+    width: 75%;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 70%);
+    }
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
