@@ -1,6 +1,6 @@
 # Skeleton Loading
 
-###### **A simple project following a tutorial for skeleton loading cards** 
+###### **A simple project inspired by [this tutorial](https://www.youtube.com/watch?v=ZVug65gW-fc) for skeleton loading cards** 
 
 ### Tech | Data
 * [Vanilla.js](http://vanilla-js.com/) 
